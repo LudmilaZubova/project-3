@@ -1,0 +1,116 @@
+body,
+html{
+	margin:0;
+	padding: 0;
+}
+body{
+	margin: 0 auto;
+	font-family: PTSans, Arial, sans-serif;
+	font-size: 13px;
+	max-width: 1200px;
+
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+
+/*логотип*/
+
+.logo{
+	display: block;
+	width:220px;
+	max-height: 47px;
+	padding-top: 10px;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #ffffff;
+	background-color:#ee3643; 
+	text-align: center; 	
+}
+
+.header-logo{
+	margin-left: 130px;
+}
+.header-logo a:hover{
+	background-color: #ca2c37;
+}
+.header-logo a:link{
+	background-color: #ba2732;
+}
+
+/*шапка*/
+
+.top-nav{
+	display: flex;
+	justify-content: space-between;
+	min-height: 50px;
+	box-sizing: border-box;
+	background-color: #293449;
+	color: #fff;
+	font-size: 17px;
+	font-family: Cuprum, Arial, sans-serif;
+}
+.button-order{
+	display: inline-block;
+	width: 150px;
+	padding-top: 13px;
+	margin-right: 130px;
+	text-align: center;
+	color: #ffffff;
+	background-color:#63a63e;
+}
+.button-order:hover{
+	background-color: #5fbb2d;
+}
+.button-order:click{
+	background-color:#63a63e;
+}
+.search{
+	margin-right: 190px;
+}
+input[type="text"]{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	padding-left: 50px;
+	width: 267px;
+	font-size: inherit;
+	font-family: inherit;
+	background-color:#293449;
+	color: #ffffff;
+	border: none; 
+
+}
+input[type="text"]:hover{
+	background-color: #212a3a;
+}
+input[type="text"]:focus{
+	background-color: #fff;
+	color: #212a3a;
+}
+
+.tab,
+.bag{
+	position: relative;
+	color: #ffffff;
+	line-height: 50px;
+}
+.tab a:hover,
+.bag a:hover{
+	opacity: 0.6;
+}
+.tab{
+	margin-right: 80px;
+}
+.tab::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 10px;
+	background-image: 
+
+
+}
